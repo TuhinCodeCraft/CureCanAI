@@ -54,7 +54,7 @@ st.sidebar.title("CureCancAI")
 st.sidebar.text("Made by ByteForce")
 
 # Display the logo (optional)
-st.logo("assets/logo.jpg")
+st.logo("assets/logo.png")
 
 # Run Navigation
 pg.run()

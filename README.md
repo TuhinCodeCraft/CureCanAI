@@ -1,12 +1,13 @@
 # CureCanAI
 
-CureCancAI is a web application built with Streamlit that helps users detect cancer. The application uses Firebase for authentication (including Google OAuth2) and features a secure signup and login system.
+CureCancAI is a web application built with Streamlit that helps users detect breast cancer. The application uses Firebase for authentication and features a secure signup and login system.
+
+**[Live Preview](https://curecanai.onrender.com/)** - Check out the live version of the application.
 
 ## Features
 
 - **User Authentication**: Secure user signup and login with Firebase Authentication.
-- **Google OAuth**: Login using Google accounts through OAuth2 integration.
-- **Cancer Detection**: Leverage AI to detect cancer and present detailed results.
+- **Breast Cancer Detection**: Leverage AI to detect cancer and present detailed results.
 - **Dashboard**: Provides data visualization with beautiful charts (using libraries like Matplotlib, Plotly).
 - **Responsive Design**: Streamlit provides a clean and responsive interface.
 
@@ -37,10 +38,17 @@ To run the application locally, follow these steps:
 - Use the provided .env.sample as a template to add your variables
 
 4. **Firebase Admin SDK:**
-- Create a folder in the root named auth
-- Add your Firebase Admin SDK JSON file under auth/ folder and update the path in your code.
+- Add your Firebase Admin SDK JSON file and update the path in your code.
 
 5. **Run the App:**
    ```bash
    streamlit run app.py
    ```
+
+## Made By ByteForce for Google GenAI Excchange hackathon
+
+### Members:
+- [Tuhin Ghosh](https://github.com/TuhinCodeCraft)
+- [Anushka Das](https://github.com/AnushkaTechSpace)
+- [Pritam Mahata](https://github.com/PritamMahata)
+- [Sourav Pal](https://github.com/Souravpal08)
