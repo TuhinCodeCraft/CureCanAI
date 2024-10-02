@@ -51,4 +51,8 @@ To run the application locally, follow these steps:
 - [Tuhin Ghosh](https://github.com/TuhinCodeCraft)
 - [Anushka Das](https://github.com/AnushkaTechSpace)
 - [Pritam Mahata](https://github.com/PritamMahata)
+<<<<<<< HEAD
 - [Sourav Pal](https://github.com/Souravpal08)
+=======
+- [Sourav Pal](https://github.com/Souravpal08)
+>>>>>>> e72570eef4cddae5059bba2fedc3265b38b30531
