@@ -2,6 +2,11 @@ import streamlit as st
 import pyrebase
 import firebase_admin
 from firebase_admin import credentials
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
 
 def add_custom_css():
     st.markdown("""
@@ -62,14 +67,14 @@ add_custom_css()
 
 # Pyrebase configuration for authentication
 firebaseConfig = {
-    "apiKey": "AIzaSyAglQbDyGi7-L0x3cC8SMIV0fiBqNeKq9U",
-    "authDomain": "curecanai.firebaseapp.com",
-    "databaseURL": "https://curecanai-default-rtdb.firebaseio.com/",
-    "projectId": "curecanai",
-    "storageBucket": "curecanai.appspot.com",
-    "messagingSenderId": "953194430711",
-    "appId": "1:953194430711:web:a586ffbf2c5affb0ccd3f2",
-    "measurementId": "G-MQK0441LXW"
+    "apiKey": os.getenv("FIREBASE_API_KEY"),
+    "authDomain": os.getenv("FIREBASE_AUTH_DOMAIN"),
+    "databaseURL": os.getenv("FIREBASE_DATABASE_URL"),
+    "projectId": os.getenv("FIREBASE_PROJECT_ID"),
+    "storageBucket": os.getenv("FIREBASE_STORAGE_BUCKET"),
+    "messagingSenderId": os.getenv("FIREBASE_MESSAGING_SENDER_ID"),
+    "appId": os.getenv("FIREBASE_APP_ID"),
+    "measurementId": os.getenv("FIREBASE_MEASUREMENT_ID")
 }
 
 # Initialize Pyrebase
