@@ -11,3 +11,4 @@ numpy
 toml
 msgpack
 matplotlib
+pyrebase4
