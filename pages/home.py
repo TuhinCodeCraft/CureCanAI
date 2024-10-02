@@ -175,7 +175,7 @@ def main_page():
     """)
 
     st.write("---")
-    st.write("© 2023 Cancer Detection Info. All rights reserved.")
+    st.write("© 2024 Cancer Detection Info. All rights reserved.")
     st.write("Terms of Service | Privacy")
 
     footer_cols = st.columns(3)
