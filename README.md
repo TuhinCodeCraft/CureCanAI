@@ -24,8 +24,8 @@ To run the application locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/curecancai.git
-   cd CureCanAI
+      git clone https://github.com/yourusername/curecancai.git
+      cd CureCanAI
    ```
 
 2. **Install Dependencies:**
@@ -42,7 +42,7 @@ To run the application locally, follow these steps:
 
 5. **Run the App:**
    ```bash
-   streamlit run app.py
+      streamlit run app.py
    ```
 
 ## Made By ByteForce for Google GenAI Excchange hackathon
