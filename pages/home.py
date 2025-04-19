@@ -60,8 +60,8 @@ def why_choose_us_page():
 def main_page():
     images = [
         "https://stgaccinwbsdevlrs01.blob.core.windows.net/newcorporatewbsite/blogs/october2023/detail-main-polotno-52-1.jpg",
-        "https://media.istockphoto.com/id/522519497/photo/cancer-cell.jpg?s=612x612&w=0&k=20&c=5utBUO4kXxytm8N3pGr1IlVoE77uEhBsVonLpYVS7uQ=",
-        "https://d3b6u46udi9ohd.cloudfront.net/wp-content/uploads/2022/03/21075108/Types-of-blood-cancer_11zon.jpg",
+        "https://cdn.labmanager.com/assets/articleNo/21809/aImg/40005/cancer-cell-l.jpg",
+        "https://www.millenniumcancercenter.com/wp-content/uploads/2018/07/09-blog-blood-cancer.jpg",
     ]
 
     captions = [
